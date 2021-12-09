@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.col, .col-2, .col-3 {
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
